@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed:ital@1&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0;
+    height: 40px;
+    font-size: 13px;
+    align-items: center;
+    text-decoration: underline;
+}
+#menu{
+    width: 20px;
+    height: 20px;
+    margin: 30px 50px 0 50px;
+    /* position: fixed; */
+}
+#ikea{
+    width: 90px;
+    height: 65px;
+    margin-top: 14px;
+    margin-right: 50px;
+}
+h4{
+    margin: -35px 10px 0 40px;
+}
+#search{
+    width: 600px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(243, 242, 241);
+    margin: 25px;
+    margin-right: 80px;
+    text-indent: 30px;
+}
+#Log{
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 50px;
+    margin: 25px;
+    font-size: 15px;
+    text-indent: 20px;
+
+}
+#like{
+    width: 25px;
+    height: 20px;
+    margin-top: 30px;
+}
+#bag{
+    width: 20px;
+    height: 20px;
+    margin: 30px;
+}
+.main{
+    display: flex;
+}
+.anc{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+#yo{
+    font-size: 15px;
+    
+}
+#truck{
+    width: 50px;
+    height: 40px;
+    margin-top: -40px;
+    margin-right: 0;
+}
+#store{
+    width: 30px;
+    height: 30px;
+    margin-top: -38px;
+}
+#ya{
+    margin-right: 200px;
+}
+.da{
+    margin-left: 0;
+    margin-right: 30px;
+}
+.hi{
+    margin-left: 120px;
+    margin-top: 40px;
+    display: inline-block;
+    flex-wrap: wrap;
+    
+
+}
+.hi>img{
+    height: 40%;
+    width: 40%;
+}
+.hii{
+    display: inline-block;
+    flex-wrap: wrap;
+    
+}
+.hii>img{
+    height: 70%;
+    width: 30%;
+}
+.dada{
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+
