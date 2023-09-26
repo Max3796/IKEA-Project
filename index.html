@@ -10,64 +10,234 @@
 
 <body>
     <header>
+        <img id="card" src="https://cdn-icons-png.flaticon.com/128/1617/1617145.png" alt="">
         Now buy IKEA Gift Cards online
     </header>
-    <nav>
+    <nav id="las">
         <div class="main">
-            <img id="menu"
+            <div class="rt">
+
+                <img id="menu"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQLwUcbtH8OYBbizqvk4knWy9evOO6-_clCj1CUi4&s"
-                alt="menu">
+                alt="menu"><br><br><br>
+                <h4>Menu</h4>
+            </div>
 
             <img id="ikea"
                 src="data:image/png;base64,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"
                 alt="ikea">
                 
-            
-            <input id="search" type="text" placeholder="What are you looking for??">
+            <img id="magni" src="https://cdn-icons-png.flaticon.com/128/622/622669.png" alt="">
+            <input id="search" type="text" placeholder="What are you looking for??" >
+            <img id="cam" src="https://cdn-icons-png.flaticon.com/128/45/45010.png" alt="">
+            <img id="admin" src="https://cdn-icons-png.flaticon.com/128/709/709722.png" alt="">
             <input id="Log" type="text" placeholder="Hej! Log in or sign up">
             <img id="like"
                 src="data:image/png;base64,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"
                 alt="heart">
             <img id="bag"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTb0YZTK2me0K-u23mI8LfDHgmjR0wsG6x6A&usqp=CAU"
+                src="store.jpg"
                 alt="shopping bag">
         </div>
-        <div>
+        <div >
 
-            <h4 id="yo">Menu</h4>
+            
         </div>
         <div class="anc">
 
-            <h4>Products</h4>
-            <h4>Rooms</h4>
-            <h4>New at IKEA</h4>
-            <h4>IKEA for Business</h4>
-            <h4 id="ya">Offers</h4>
+            <h4 class="oye">Products</h4>
+            <h4 class="oye">Rooms</h4>
+            <h4 class="oye">New at IKEA</h4>
+            <h4 class="oye">IKEA for Business</h4>
+            <h4 class="oye" id="ya">Offers</h4>
 
             <img id="truck"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwUzdM-gY8AFy8xWNnu_rprkBi9lEEl9ps3kGZiFMpfntOSpiGBE4igyN1swsO9AlZ1Z4&usqp=CAU"
                 alt="">
-            <h4 class="da">Enter postal Code</h4>
-            <img id="store"
+            <h4 class="da" id="uff">Enter postal Code</h4>
+            <img id="store" 
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADgCAMAAAAt85rTAAAAflBMVEX///8AAAD5+fkODg7Pz88rKyvx8fHp6elBQUHX19dRUVG/v7/s7Ozv7+/l5eW4uLgfHx+RkZGmpqYYGBicnJxgYGDDw8OIiIhWVlbS0tJnZ2d4eHjc3Nw9PT2pqamxsbFISEiMjIw1NTVxcXFjY2MvLy+AgICYmJgnJycUFBQnnGGAAAAE8UlEQVR4nO2c6XayMBCGDS6oKO6KS13r0vu/wa9a9UPMMoTA0J73+Z1DeQrJTCaDlQoAAAAAAAAAAAAAAAAAAAAAAAAAAABATl0Uy6xgv3HBfkJMC/XrFO4nhF+k4IRB8KNAvw2DnxCnwvw8Fr8Cp+GBSVB0ivGrcfmJZjGCVTZBsSzCb8DnJ0SQv9+K00+IMHfBD17BY95+Q16/3Kdhg9tPiF6ughw5WpI8p+GUW+7KPj8/b8Qtd2ORm+CMW+3OJie/FrfYk1U+gk1uryf9XPyKL1OoyWMadrmlXshhGkbcTq84n4YBt1GCumM/rjKFmolbwSW3zztrl358ZQoNc4eCfW4ZGVV3fqxlCjXOpmHIbaJi6EiwPDlakpYTP55KPYm+58CvXDlagrYDwQW3hJZxZr9SlCk01LIKXrgNTGSchifu+zcSZfIrbQiMcc4iyFypp5FhGq65751EtWHrV4JKPQnrk9FP7junMrDz66X4EynOfVPUx8nbNLsGhTSV7C15ZDVF7k4+7LFr9UqzDaRXTY/00Ho5U0favaMpTju39LFteoHuQN7I2KWkKSoxuzl56Il+xjEmdwTYzcEUPXc9ekTpVchDa+SrWrbq0VeObqVNHerRz4kb1Hq67aEoeeWI6BO2TQ8/n+RUyrY1gVzPvk4B+lCPGN5q5Kta12aIfXej61ha1NzT34zbUFJJ/WLrV/FJd/KzhtEWhJ/MnzT0VrkmLXQZOrxIkfa+5aTMwvtQSig8/AwlZBtbez/ahvCxWzEvec+NjfnNexbmj8ahmdq5Ca/I8wVpGNPo/+clxtt+nnAaiwoZ69tprm8qocbasDyDYWyXbkiodtn8jN0jLxWRULtrejlYb2hjxUvqpY2bDrrzurp/dqIbwNMkP8nSiTqh+Ur0o2kSXSfnL55yg1N9P4RUrbvN95ZyVThcvJU6fcUespq57HtnLn8w0k8ZQtmTGUm7ILuyY4Gm9KbXsgXMslIhZfqueFA1Ns6TCVB/oyo/r5Lxoq3a+HjDxKT9GlsX0+SE57hje6grmXu9wyOA9qOzvqdletren87HYqO959Y4ui8H+2js5mgwQbe1HsyWp8Fw3jUP7vitWi30KUcHDT8MQ59wzYrX8YkjQUrW5PWsQ6+ADfL/ioDKjtwt/p03TIgnXouiv4tU4t3SbNL3b7ct+oXyZDq3NS37Ca4DHpufo3Fl6zxipPm+HxXDZqGffsrwY9F6pn/5YjtGeTh/soqFJJfhPD1hIo1TR18vkTNH6l6zVSIZ0sbcXJlKcq2T9EX1z++7h7a8bzd4r0COZgWsp/PD9CVf9gPVtrw6q72MbLTOe8XQz00Yfzqev1HVufrnefzl8ELnXc3XfefHZLcJgqA3PEWqW77TnMzW3yODzWBhKB/X28tx73rR8TIy/P5Ac3H788FwGV3El+v3tmw9o3UIQhCCrEAQghDkBYIQhCAvEIQgBFN9dqJpO9M07GpO0MsmqDko1ghq+lggmBYI6oGgFAg6BIJ6ICgFgg6BoB4ISoGgQyCoB4JSIOgQCOqBoBQIOgSCeiAohVnQa9DRVP5LKyiqafiNgo6AIAQhCEEIQhCCEIQgBCEIQQimFeRt5XImqK4DaDrcfpGgrjLwNwStgCAEIcgLBCFYcsGsP3IPAAAAAAAAAAAAAAAAAAAAAAAAAADAX+IfbINtgF93pnoAAAAASUVORK5CYII="
                 alt="">
-            <h4 class="da">Select Store</h4>
-
+            <h4 class="da" id="uf">Select Store</h4>
         </div>
     </nav>
-    <div class="hi">
-        <img src="https://www.ikea.com/images/9b/22/9b2277f5414c10770581ef5a772c81a2.jpg?f=xl" alt="">
-    </div>
-        <div class="dada">
+    <hr >       
+    <div id="elo">
 
-            <img src="https://www.ikea.com/images/fd/36/fd367b0373d307ea9c40ed6a64068b11.jpg?f=xs" alt="">
-            <img src="https://www.ikea.com/images/37/5c/375cda3f68c0add4b43b82b7bea1c007.jpg?f=xs" alt="">
-        </div><div class="dada">
-            <img src="https://www.ikea.com/images/fd/94/fd94877ccecf31dae8934e9ec2fd0f74.jpg?f=xs" alt="">
-            <img src="https://www.ikea.com/images/7a/1a/7a1a9e8a83d1efb4693e671c9e57c8a5.jpg?f=xs" alt="">
-
+        <div class="hi">
+            <img id="img1" src="https://www.ikea.com/images/9b/22/9b2277f5414c10770581ef5a772c81a2.jpg?f=xl" alt="">
         </div>
-        
+        <div class="dada">
+            
+            <img id="img2" src="https://www.ikea.com/images/7a/1a/7a1a9e8a83d1efb4693e671c9e57c8a5.jpg?f=xs" alt="">
+            <img id="img4" src="https://www.ikea.com/images/fd/94/fd94877ccecf31dae8934e9ec2fd0f74.jpg?f=xs" alt="">
+        </div>
+        <div class="dada1">
+            <img id="img3" src="https://www.ikea.com/images/37/5c/375cda3f68c0add4b43b82b7bea1c007.jpg?f=xs" alt="">
+            <img id="img5" src="https://www.ikea.com/images/fd/36/fd367b0373d307ea9c40ed6a64068b11.jpg?f=xs" alt="">
+            
+        </div>
+    </div>
+    <hr id="gym">  
+    <footer>
+        <div class="right">
+            <div class="main">
+                <div class="first">
+                    <div class="first-1">
+                        <ul>
+                            <li class="top"><strong>Join IKEA Family</strong></li>
+                            <br>
+                            <li class="big-para">Enjoy guaranteed discounts, special previews, and much more. Sign up today - it’s free
+                                and only
+                                takes a minute to join.</li>
+                            <br>
+                            <li class="lined">see more</li>
+                            <br>
+                            <li><button class="black-img"><strong>Join the club</strong></button></li>
+                        </ul>
+                    </div>
+                    <div class="first-2">
+                        <ul>
+                            <li class="top"><strong>IKEA Business Network</strong></li>
+                            <br>
+                            <li class="big-para">Join the membership program for business customers with exciting benefits and features.
+                                Join us
+                                for free and enjoy member discounts, quick-fix tips, online tutorials and a lot more.
+                            </li>
+                            <br>
+                            <li class="lined">see more</li>
+                            <br>
+                            <li><button class="black-img"><strong>Join us</strong></button></li>
+                        </ul>
+                        <br>
+                        <br>
+                        <div class="icons">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="second">
+                    <ul>
+                        <li class="top"><strong>IKEA Family</strong></li>
+                        <br>
+                        <li>Log in</li>
+                        <br>
+                        <li>Join Ikea family</li>
+                        <br>
+                        <li>Member offers</li>
+                        <br>
+                        <li>Workshops & events</li>
+                    </ul>
+                </div>
+                <div class="third">
+                    <ul>
+                        <li class="top"><strong>Services</strong></li>
+                        <br>
+                        <li>Delivery Service</li>
+                        <br>
+                        <li>Click & collect</li>
+                        <br>
+                        <li>Personal shopper</li>
+                        <br>
+                        <li>Design your room</li>
+                        <br>
+                        <li>Assembly Service</li>
+                        <br>
+                        <li>Measuring Service</li>
+                        <br>
+                        <li>Kitchen Planning</li>
+                        <br>
+                        <li>Installation Service</li>
+                        <br>
+                        <li>Track Your Order</li>
+                        <br>
+                        <li>Customer Service</li>
+                        <br>
+                        <li>Recycle Program</li>
+                    </ul>
+                </div>
+                <div class="fourth">
+                    <ul>
+                        <li class="top"><strong>Help</strong></li>
+                        <br>
+                        <li>How to shop
+                            <br>
+                        <li>Return policy</li>
+                        <br>
+                        <li>Prices and price tags</li>
+                        <br>
+                        <li>Contact us</li>
+                        <br>
+                        <li>FAQ's</li>
+                        <br>
+                        <li>Planners</li>
+                        <br>
+                        <li>Size guide - Beds & mattresses</li>
+                        <br>
+                        <li>Gift Card</li>
+                        <br>
+                        <li>Feedback</li>
+                    </ul>
+                </div>
+                <div class="fifth">
+                    <ul>
+                        <li class="top"><strong>About IKEA</strong></li>
+                        <br>
+                        <li>This is IKEA</li>
+                        <br>
+                        <li>Working at IKEA</li>
+                        <br>
+                        <li>Newsroom</li>
+                        <br>
+                        <li>Sustainability</li>
+                        <br>
+                        <li>IKEA Stores</li>
+                        <br>
+                        <li>IKEA Restaurant</li>
+                        <br>
+                        <li>IKEA for Business</li>
+                    </ul>
+                    <br>
+                    <button class="second-btn">
+                        <svg id="no" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor"  viewBox="0 0 16 16">
+                            <path
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+                        </svg>
+                        <strong>Change country</strong>
+                    </button>
+                </div>
+            </div>
+            <br>
+            <hr id="yup">
+            <br>
+            <div class="bottom">
+                <p id="bottom-1st" class="bottom-text">© Inter IKEA Systems B.V. 2000-2023</p>
+                <p class="bottom-text">
+                    Privacy policy cookie policy Cookie settings
+                </p>
+            </div>
+        </div>
+    </footer>
 
 
 </body>
